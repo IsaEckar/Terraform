@@ -5,8 +5,6 @@ terraform {
       version = "~> 5.0"
     }
   }
-
-
  backend "s3" {
     bucket = "bucket-states1"
     key = "kubernetes/kubernetes.tstates"
@@ -17,8 +15,6 @@ terraform {
     dynamondb_table = "tstates"
     }
 }
-
-
 provider "aws" {
     shared_config_files = ["C:/Users/Isaura/.aws/config"]
     shared_credentials_files = ["C:/Users/Isaura/.aws/credentials"]

@@ -12,7 +12,7 @@ terraform {
     region = "us-east-1"
     shared_credentials_files = ["C:/Users/Isaura/.aws/credentials"]
     profile = "itm"
-    dynamondb_table = "tstates"
+    dynamodb_table = "tstates"
     }
 }
 provider "aws" {
